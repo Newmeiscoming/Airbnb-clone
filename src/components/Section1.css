@@ -1,0 +1,35 @@
+
+.a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 80px;
+    padding-left: 80px;
+    
+}
+.slid-button{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    border: 1px solid #ddd;
+    transition: transform .2s;
+
+}
+.slid-button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    
+}
+.b{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    padding-left: 80px;
+    padding-right: 80px;
+    scroll-behavior: smooth;
+}
+.b::-webkit-scrollbar{
+    display: none;
+}

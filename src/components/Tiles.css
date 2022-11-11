@@ -1,0 +1,23 @@
+.image-div{
+    width: 270px;
+    height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    
+}
+#favourites{
+    position: relative;
+    top:20px;
+    right: -100px;
+    font-size: 35px;
+    cursor: pointer;
+}
+#favourites:hover{
+    transform: scale(1.1);
+}
+.info-div{
+    text-align: left;
+    color: #2d3436;
+}
